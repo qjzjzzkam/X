@@ -1,0 +1,41 @@
+# This workflow will build a Swift project
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-swift
+#Control + Shift + m
+name: Swift
+#{ Space +Control
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:            - الاسم: تقرير القياسات التلقائية
+  # يمكنك التثبيت على الالتزام الدقيق أو الإصدار.
+  # الاستخدامات: autometrics-dev/diff-metrics@778b3281f8446790af0afd766d5bb236defb5dde
+  الاستخدامات: autometrics-dev/diff-metrics@v2.1.0
+  مع:
+    # رمز Github للاستخدام
+    رمز gh:
+    قائمة جذور مشروع الصدأ المطلوب التحقق منها. مسار واحد لكل سطر.
+    rs-roots: # اختياري
+    قائمة بجذور مشاريع TypeScript المطلوب التحقق منها. مسار واحد لكل سطر.
+    ts-roots: # اختياري
+    قائمة بجذور مشاريع جولانج المطلوب التحقق منها. مسار واحد لكل سطر.
+    go-roots: # اختياري
+    قائمة جذور مشاريع بايثون للتحقق منها. مسار واحد لكل سطر.
+    جذور الباي: # اختياري
+    # عدد أيام حفظ القطع الأثرية. افتراضيًا، القيمة 0 (ترث السياسة من المستودع).
+    أيام الاحتفاظ: # اختياري، الافتراضي هو 0
+    # إصدار am الذي سيتم تنزيله، وتخطي التصحيح أو الإصدار الثانوي ليعمل كبطاقة بديلة. "0.2" يعني ">=0.2.0 و<0.3.0"، "1" يعني ">=1.0.0 و<2.0.0"، وهكذا.
+    إصدار am: # اختياري
+          
+
+    runs-on: macos-latest
+=tab 
+    steps:
+    - uses: actions/checkout@v4
+    - name: Build
+      run: swift build -v
+    - name: Run tests
+      run: swift test -escللانتقال tab https://www.instagram.com/iz.c.x?igsh=MTBpcjQybnQ1eWw4ZA%3D%3D&utm_source=qr
