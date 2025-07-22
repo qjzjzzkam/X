@@ -1,4 +1,4 @@
-# This workflow will build a Swift project
+
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-swift
 #Control + Shift + m
 name: Swift
@@ -16,7 +16,7 @@ jobs:
   الاستخدامات: autometrics-dev/diff-metrics@v2.1.0
   مع:
     # رمز Github للاستخدام
-    رمز gh:
+    رمز gh:w
     قائمة جذور مشروع الصدأ المطلوب التحقق منها. مسار واحد لكل سطر.
     rs-roots: # اختياري
     قائمة بجذور مشاريع TypeScript المطلوب التحقق منها. مسار واحد لكل سطر.
@@ -30,7 +30,7 @@ jobs:
     # إصدار am الذي سيتم تنزيله، وتخطي التصحيح أو الإصدار الثانوي ليعمل كبطاقة بديلة. "0.2" يعني ">=0.2.0 و<0.3.0"، "1" يعني ">=1.0.0 و<2.0.0"، وهكذا.
     إصدار am: # اختياري
           
-
+Control + Shift + m +967774753130
     runs-on: macos-latest
 =tab 
     steps:
