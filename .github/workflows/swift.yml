@@ -33,9 +33,9 @@ jobs:
 Control + Shift + m +967774753130
     runs-on: macos-latest
 =tab 
-    steps:
+    step
     - uses: actions/checkout@v4
     - name: Build
       run: swift build -v
     - name: Run tests
-      run: swift test -escللانتقال tab https://www.instagram.com/iz.c.x?igsh=MTBpcjQybnQ1eWw4ZA%3D%3D&utm_source=qr
+      run: swift test -escللانتقال tab https:/https://www.instagram.com/xee_0_?igsh=c3p1Z2c3Z3Q1MHcz
